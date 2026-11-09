@@ -20,7 +20,7 @@
     "@rome-protocol/sdk": "github:rome-protocol/rome-sdk-ts#v0.3.0",
     "@solana/web3.js": "^1.98.0",
     "lucide-react": "^0.468.0",
-    "next": "15.1.6",
+    "next": "15.5.14",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "viem": "^2.21.0"

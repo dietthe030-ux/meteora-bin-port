@@ -13,7 +13,7 @@ One concentrated liquidity vault, two kinds of wallet. Both EVM and Solana walle
 **Both** (EVM Smart Contract + Solana Program CPI Integration via Rome Precompiles)
 
 ## 5. Links
-- **Website (Vercel Production)**: https://binpulse-meteora-dlmm-port.vercel.app
+- **Website (Vercel Production)**: https://02-meteora-dlmm-port.vercel.app
 - **GitHub Repository**: https://github.com/dietthe030-ux/meteora-bin-port
 - **X**: https://x.com/romeprotocol
 
