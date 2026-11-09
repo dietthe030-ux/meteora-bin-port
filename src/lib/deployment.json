@@ -1,0 +1,185 @@
+{
+  "appName": "BinPulse",
+  "deployedAt": "2026-11-09T16:35:47.684Z",
+  "hadrian": {
+    "chainId": 200010,
+    "name": "Rome Hadrian",
+    "rpcUrl": "https://hadrian.testnet.romeprotocol.xyz/",
+    "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz",
+    "romeEvmProgramId": "RPTWwELXAY4KC9ZPHhaxp7Sq1hHtU3HNEgLbSegCcWf",
+    "contractAddress": "0xb11b05941a1c2480c38a0d75b662aa9bddceba9b",
+    "contractExplorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/address/0xb11b05941a1c2480c38a0d75b662aa9bddceba9b",
+    "deployTxHash": "0x2d37641574403eb54c0d76115e90f7b02e252e230a4c34ad00f1dc4149e1392e",
+    "deployTxExplorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0x2d37641574403eb54c0d76115e90f7b02e252e230a4c34ad00f1dc4149e1392e",
+    "deploySolanaSig": "3QCQj9N7Ta3MDd9GnycgD7JWqxMbzgKthDbMx8eQvTN5GBbF7cBkpTxe8U6jwH51b4kfNRmcXRjQmQnNB5yQr991",
+    "meteoraDammFactory": "0xd68b355f62643de0ec40243cba8f699f959ea3c4",
+    "primaryDammPool": "0x4B7EB70311fD0752d270Ca1017CC49845c305321",
+    "syncedDammPoolsCount": 1,
+    "vaultAuthorityPda": "0x10485fe994475096af85e43ab12ca223329b140e316215dacc1abd954844aa5d",
+    "romeProgramIdBytes32": "0x063f54f28bb4a78ab425ef0fd1bd70c91124059a38150ce5765d4bcad916b62c",
+    "tokens": [
+      {
+        "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "mintId": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+        "symbol": "USDC",
+        "name": "Rome Hadrian",
+        "decimals": 18,
+        "kind": "gas"
+      },
+      {
+        "address": "0xbce339ba4c3a8de3bb8af1c5539e6ac11da3112d",
+        "mintId": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+        "symbol": "wUSDC",
+        "name": "Rome USDC",
+        "decimals": 6,
+        "kind": "spl_wrapper"
+      },
+      {
+        "address": "0x02aeace038269f9961c93d04dcacd6fb3adfa55f",
+        "mintId": "6F5YWWrUMNpee8C6BDUc6DmRvYRMDDTgJHwKhbXuifWs",
+        "symbol": "wETH",
+        "name": "Rome ETH",
+        "decimals": 8,
+        "kind": "spl_wrapper"
+      },
+      {
+        "address": "0x39f36444fcb79b3e691544aee2a832ebef54ca9f",
+        "mintId": "So11111111111111111111111111111111111111112",
+        "symbol": "wSOL",
+        "name": "Rome SOL",
+        "decimals": 9,
+        "kind": "spl_wrapper"
+      }
+    ]
+  },
+  "rubiconMainnet": {
+    "chainId": 7531,
+    "name": "Rome Rubicon Mainnet",
+    "rpcUrl": "https://rubicon.mainnet.romeprotocol.xyz/",
+    "explorerUrl": "https://via.mainnet.romeprotocol.xyz",
+    "romeEvmProgramId": "RomePq9X3iAoTr813HR7uRarafFDUJty6GdiEceYpzX",
+    "solanaMeteoraDlmmProgramId": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "solanaMeteoraDammV1ProgramId": "Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB",
+    "solanaMeteoraDammV2ProgramId": "cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG",
+    "precompiles": {
+      "system": "0xfF00000000000000000000000000000000000007",
+      "cpi": "0xFF00000000000000000000000000000000000008",
+      "helper": "0xff00000000000000000000000000000000000009"
+    }
+  },
+  "solanaPrograms": {
+    "meteoraDlmm": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "meteoraDlmmBytes32": "0x04e9e12fbc84e826c932cce9e2640cce15590c1c6273b0925708ba3b8520b0bc",
+    "meteoraDammV1": "Eo7WjKq67rjJQSZxS6z3YkapzY3eMj6Xy8X5EQVn5UaB",
+    "meteoraDammV1Bytes32": "0xccf802d4cccc84d7fb21b5f73b49d81a16c5b4c88ee32394e1c91d3588cc4080",
+    "meteoraDammV2": "cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG",
+    "defaultSolanaLbPair": "Ah9K7F4sP662c5DFcCa2kCse4Ei8Da3Ym4M2KaBGikmZ",
+    "defaultSolanaLbPairBytes32": "0x902b92eb5b67c5c9461a37fb22607fc0897bc3b6593fa1335197e61a14a44db5"
+  },
+  "wallets": {
+    "deployer": "0x8581C4A532DD3f9B163b12809B1bD089f367147f",
+    "lpUser1": "0xD56647bBa764c1b673299baaEB356569a37961b8",
+    "lpUser2": "0xd96CbB20f449eab7FAA2E9ca3B25c55d5BEcAfF6",
+    "lpUser1LinkedSolanaPubkey": "7aP6G83V114H7mUYQe9BwYEXjESu3ppyaByrRUgoM4rx"
+  },
+  "transactions": [
+    {
+      "step": 2,
+      "label": "Sync MeteoraDAMMv1Factory & Rome Precompiles (0xFF...07 / 0xFF...09)",
+      "functionName": "syncMeteoraFactory",
+      "walletRole": "Deployer",
+      "sender": "0x8581C4A532DD3f9B163b12809B1bD089f367147f",
+      "lane": "EVM",
+      "strategy": "Factory & PDA Sync",
+      "binRange": "Pool #0 Synced",
+      "txHash": "0xd168cf7520ef6ce7a78d5c04baa5337fe4c4dd15b2e90b63a9551e2b8454aff7",
+      "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0xd168cf7520ef6ce7a78d5c04baa5337fe4c4dd15b2e90b63a9551e2b8454aff7",
+      "solanaSig": "45DLPNet6EDTyUZSGqkENDH9TnwsgyJFjtUXpz3TMQAMPgunC5bNHsmgzgrQ2N7YdkHhp2kkEEhVMaJKuFYMcda",
+      "timestamp": "2026-11-09T16:35:23.410Z"
+    },
+    {
+      "step": 3,
+      "label": "Link Dual-Lane Solana Wallet Identity (keccak256 synthetic)",
+      "functionName": "registerDualLaneWallet",
+      "walletRole": "LP User 1",
+      "sender": "0xD56647bBa764c1b673299baaEB356569a37961b8",
+      "lane": "Solana Synthetic",
+      "strategy": "Dual-Lane Parity",
+      "binRange": "Solana -> EVM Synthetic",
+      "txHash": "0x36cdd63bca60c9e43e92c3a2f118b14e0c89b141b0d44b8936569524657243fd",
+      "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0x36cdd63bca60c9e43e92c3a2f118b14e0c89b141b0d44b8936569524657243fd",
+      "solanaSig": "5tCYX9ZFtLBRRWsdzecB4KaNeQE8jcXYYL4PoHP1Thv19SWhQzcBgFovsGFobrBdso4C3eUzpUoM3SAiUNfYzeiw",
+      "timestamp": "2026-11-09T16:35:28.105Z"
+    },
+    {
+      "step": 4,
+      "label": "Add Concentrated Bin Liquidity (CURVE Strategy - 5.0 SOL + 750 USDC)",
+      "functionName": "addBinLiquidity",
+      "walletRole": "LP User 1",
+      "sender": "0xD56647bBa764c1b673299baaEB356569a37961b8",
+      "lane": "EVM",
+      "strategy": "Curve (Gaussian Bell)",
+      "binRange": "1449 - 1451",
+      "txHash": "0xeb53306f87c141f061045cbf9332bfbdbadb7e17df779821fab8cbd2bc20e46c",
+      "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0xeb53306f87c141f061045cbf9332bfbdbadb7e17df779821fab8cbd2bc20e46c",
+      "solanaSig": "3tWAApHfWLWLkER4eCKLPfPzGmrGHGtGmqM8WmEJU1DRNN9cRx3MqW1iE7vALnnVTAJpePJV76rtFqBkx9BkWh7T",
+      "timestamp": "2026-11-09T16:35:32.162Z"
+    },
+    {
+      "step": 5,
+      "label": "Add Concentrated Bin Liquidity (BID-ASK Strategy - 8.5 SOL + 1,250 USDC)",
+      "functionName": "addBinLiquidity",
+      "walletRole": "LP User 2",
+      "sender": "0xd96CbB20f449eab7FAA2E9ca3B25c55d5BEcAfF6",
+      "lane": "Solana Synthetic",
+      "strategy": "Bid-Ask (Volatility Edge)",
+      "binRange": "1448 - 1450",
+      "txHash": "0x3c5c932765f082e8cfe5ec4971eb47f00f6fb9b10ee9a0d9799884e6afa0f8fe",
+      "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0x3c5c932765f082e8cfe5ec4971eb47f00f6fb9b10ee9a0d9799884e6afa0f8fe",
+      "solanaSig": "BZ6oL37jWH6YP9AYr4q5TMSUGPRqrPVwDu4NFHzQi5VurWHpCiscWVTWjwjKunbnYZEia7kuZsrkW77MSGU8o67",
+      "timestamp": "2026-11-09T16:35:36.135Z"
+    },
+    {
+      "step": 6,
+      "label": "Add Concentrated Bin Liquidity (SPOT Strategy - 4.2 SOL + 620 USDC)",
+      "functionName": "addBinLiquidity",
+      "walletRole": "LP User 2",
+      "sender": "0xd96CbB20f449eab7FAA2E9ca3B25c55d5BEcAfF6",
+      "lane": "EVM",
+      "strategy": "Spot (Uniform)",
+      "binRange": "1450 - 1452",
+      "txHash": "0x1496022a2844656e9eb85dd0d41d847565001acaa7197966e4db1b2dc0659927",
+      "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0x1496022a2844656e9eb85dd0d41d847565001acaa7197966e4db1b2dc0659927",
+      "solanaSig": "2NdLm56BzmXzLSjgKthzW937bDPgipb4uVjExE4xcsyj9Tzuo8szwtQt5ZEB68TcsLUdGrLgu4GAHqbjLpkatVNv",
+      "timestamp": "2026-11-09T16:35:39.733Z"
+    },
+    {
+      "step": 7,
+      "label": "Atomic Rebalance Bins & Compound Surge Fees via CPI (0xFF...08)",
+      "functionName": "atomicRebalanceBins",
+      "walletRole": "LP User 1",
+      "sender": "0xD56647bBa764c1b673299baaEB356569a37961b8",
+      "lane": "EVM",
+      "strategy": "Rebalance: Curve -> Spot",
+      "binRange": "1450 - 1452 (Active: 1451)",
+      "txHash": "0xdc22c8f3d637b5fe63e7fec2436e29819412b5d5ba89a707c1985ce98b2400f7",
+      "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0xdc22c8f3d637b5fe63e7fec2436e29819412b5d5ba89a707c1985ce98b2400f7",
+      "solanaSig": "2UcAcfRPnpch4zMA2dbXsuoPFsyFCiV1MTj5d3WuJX7KhNL9Z5gxsU99nSh96AwRPQiggZ4AbfBR43X3FbzgzGa1",
+      "timestamp": "2026-11-09T16:35:43.378Z"
+    },
+    {
+      "step": 8,
+      "label": "Claim Dynamic DLMM & DAMM v1 Bin Fees via CPI",
+      "functionName": "claimBinFees",
+      "walletRole": "LP User 1",
+      "sender": "0xD56647bBa764c1b673299baaEB356569a37961b8",
+      "lane": "EVM",
+      "strategy": "Dynamic Fee Harvest",
+      "binRange": "Position #1",
+      "txHash": "0x84b545d453cc5bbae4eed6400919cb5f602458e749c35da660cc72c743f2580a",
+      "explorerUrl": "https://via-hadrian.testnet.romeprotocol.xyz/tx/0x84b545d453cc5bbae4eed6400919cb5f602458e749c35da660cc72c743f2580a",
+      "solanaSig": "5RAMvK1BrxeVMNvaeotn3iNvfKV2t4AKdXwdVoPwX2NDSfBRrMmVqnboBkuBa84fVYTda9QVF2GHvJ6XtBnsZrXX",
+      "timestamp": "2026-11-09T16:35:47.322Z"
+    }
+  ]
+}

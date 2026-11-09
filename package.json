@@ -1,0 +1,45 @@
+{
+  "name": "binpulse-meteora-dlmm-port",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "BinPulse — Dual-Lane Meteora DLMM & DAMM Concentrated Liquidity Port on Rome EVM",
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "build": "next build",
+    "start": "next start -p 3002",
+    "typecheck": "tsc --noEmit",
+    "compile:contracts": "tsx scripts/compile.ts",
+    "test:contracts": "vitest run test/MeteoraLiquidityPort.test.ts",
+    "test": "vitest run",
+    "deploy:hadrian": "tsx scripts/deploy-and-interact.ts",
+    "postinstall": "node scripts/ensure-rome-dist.mjs"
+  },
+  "dependencies": {
+    "@rome-protocol/registry": "github:rome-protocol/rome-registry#v0.2.0",
+    "@rome-protocol/sdk": "github:rome-protocol/rome-sdk-ts#v0.3.0",
+    "@solana/web3.js": "^1.98.0",
+    "lucide-react": "^0.468.0",
+    "next": "15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "@ethereumjs/common": "^4.4.0",
+    "@ethereumjs/evm": "^3.1.1",
+    "@ethereumjs/statemanager": "^2.4.0",
+    "@ethereumjs/util": "^9.1.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "dotenv": "^16.4.7",
+    "postcss": "^8.4.49",
+    "solc": "0.8.28",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
